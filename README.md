@@ -15,45 +15,41 @@ display(sol)
 ```
 
 ```
-nnnnt
-pvvvx
-puyuz
-yyyyz
+YYYYT
+FYZZW
+IIIII
+VLLLL
 
-pnttt
-pvxxx
-puuuz
-iiiii
+FPTTT
+FPXZW
+FXXXW
+VLXNN
 
-llllt
-fvwlx
-ffwwz
-ffwwz
+FPUUT
+VPUZZ
+VPUUW
+VNNNW
 ```
 
 You can also get the output as an array with `to_grid(sol)`:
 
 ```
-[[['n', 'n', 'n', 'n', 't'],
-  ['p', 'v', 'v', 'v', 'x'],
-  ['p', 'u', 'y', 'u', 'z'],
-  ['y', 'y', 'y', 'y', 'z']],
- [['p', 'n', 't', 't', 't'],
-  ['p', 'v', 'x', 'x', 'x'],
-  ['p', 'u', 'u', 'u', 'z'],
-  ['i', 'i', 'i', 'i', 'i']],
- [['l', 'l', 'l', 'l', 't'],
-  ['f', 'v', 'w', 'l', 'x'],
-  ['f', 'f', 'w', 'w', 'z'],
-  ['f', 'f', 'w', 'w', 'z']]]
+[[['Y', 'Y', 'Y', 'Y', 'T'],
+  ['F', 'Y', 'Z', 'Z', 'W'],
+  ['I', 'I', 'I', 'I', 'I'],
+  ['V', 'L', 'L', 'L', 'L']],
+ [['F', 'P', 'T', 'T', 'T'],
+  ['F', 'P', 'X', 'Z', 'W'],
+  ['F', 'X', 'X', 'X', 'W'],
+  ['V', 'L', 'X', 'N', 'N']],
+ [['F', 'P', 'U', 'U', 'T'],
+  ['V', 'P', 'U', 'Z', 'Z'],
+  ['V', 'P', 'U', 'U', 'W'],
+  ['V', 'N', 'N', 'N', 'W']]]
 ```
 
 ## Hackability
 
 `shape` must be set can be changed to any set of 3D coordinates. `PENTAMINOS` can be changed to any list of 2D tiles.
 
-For instance, the `f` tile is represented with `('f', ((0, 0), (0, 1), (1, 0), (1, 1), (2, 0)))`.
-
-
-
-
+For instance, the `F` tile is represented with `('F', ((0, 1), (0, 2), (1, 0), (1, 1), (2, 1)))`.

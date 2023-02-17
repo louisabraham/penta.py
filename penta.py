@@ -118,54 +118,57 @@ PENTAMINOS = list(
     map(
         coordinates,
         """
-    ff
-    ff
-    f
+     FF
+    FF
+     F
 
-    w
-    ww
-    ww
+    I
+    I
+    I
+    I
+    I
 
-    iiiii
+    L
+    L
+    L
+    LL
 
-    y
-    yy
-    y
-    y
+     N
+    NN
+    N
+    N
 
-    vvv
-    v
-    v
+    PP
+    PP
+    P
 
-    ll
-    l
-    l
-    l
+    TTT
+     T
+     T
 
-    pp
-    pp
-    p
+    U U
+    UUU
 
-    n
-    nn
-    n
-    n
+    V
+    V
+    VVV
 
-    uu
-    u
-    uu
+    W
+    WW
+     WW
 
-    zz
-    z
-    zz
+     X
+    XXX
+     X
 
-    t
-    ttt
-    t
+     Y
+    YY
+     Y
+     Y
 
-    x
-    xxx
-    x
+    ZZ
+     Z
+     ZZ
     """.split(
             "\n\n"
         ),
